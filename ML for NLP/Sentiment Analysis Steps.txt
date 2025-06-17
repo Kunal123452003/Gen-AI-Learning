@@ -1,0 +1,13 @@
+Steps: 
+1) Get a Dataset
+2) Perform Text preprocessing Part 1:
+    1. Tokenization :  Converting para to sentences then sentences to words
+    2. Lowercase the words
+    3. Remove the regular expression or handling regular expression
+3) Text preprocessing Part 2:
+    1. Stemming: converting the words to their root form ex: playing->play
+    2. Lemmatization: same task but better results
+    3. Removing stopwords ex: a','about','above','after','again','against', and etc
+4) Converting the text/word into vectors i.e.  transforming them to the numbers or array of numbers which also carry the sematic meaning of the word/text  
+    some techniques for this is  Bag of words, Tf-IDF, Word2vec, AvgWord2Vec , One hot Encoding(now np one use this for text to vec conversion)
+5) ML algo for NLP                    
