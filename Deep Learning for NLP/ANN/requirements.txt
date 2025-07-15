@@ -3,5 +3,5 @@ tensorflow
 pandas
 numpy
 scikit-learn
-tensorborad
 streamlit
+tensorborad
