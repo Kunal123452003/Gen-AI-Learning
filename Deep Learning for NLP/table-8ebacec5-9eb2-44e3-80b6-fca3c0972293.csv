@@ -1,0 +1,9 @@
+﻿Concept,Artificial Neural Network (ANN),Recurrent Neural Network (RNN)
+Data Type,"Static, independent samples (images, tabular)","Sequential, time-dependent (text, speech, stock prices)"
+Memory,None. Each input processed independently.,Hidden state h_t carries information from previous steps.
+Architecture,Input → Hidden Layers → Output (feedforward),Input → RNN Cell → Output (looped connection over time)
+Training,Standard Backpropagation,Backpropagation Through Time (BPTT)
+Key Limitation,Cannot capture order/context,Vanishing/Exploding gradients on long sequences
+Modern Fix,"CNNs, ResNets, Transformers","LSTM, GRU, Bidirectional RNNs"
+Activation,"ReLU, LeakyReLU, Sigmoid, Tanh",Usually tanh or sigmoid for hidden state (ReLU often unstable)
+Regularization,"Dropout, L1/L2, BatchNorm","Dropout (spatial/recurrent), EarlyStopping, Gradient Clipping"
